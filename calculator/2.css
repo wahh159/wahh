@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main{
+	margin: 0 auto;
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+#output{
+	width: 200px;
+	height: 25px;
+	background-color: #5C5858;
+	overflow: hidden;
+
+}
+#result{
+	width: 200px;
+	height: 25px;
+	background-color: #5C5858;
+
+}
+#main #number{
+	width: 200px;
+	height: 250px;
+	background-color: #000;
+
+}
+#main #number>div{
+	width: 50px;
+	height: 50px;
+	float: left;
+	text-align: center;
+	color: #C2B9B9;
+	line-height: 50px;
+}
+#main #number>div:hover{
+	background-color: #1B1818;
+}
+#main #number #btn1,#main #number #btn2{
+	color: #F68A1B;
+	/*width: 100px;*/
+}
+#main #number #eq{
+	background-color: #F5792C;
+}
